@@ -11,6 +11,7 @@
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label Foreground="White" HorizontalAlignment="Center" FontWeight="Bold" FontStyle="Italic" FontSize="45">De Kast</Label>
             <Label Foreground="White" HorizontalAlignment="Center" FontSize="30">Scan uw kaart voor toegang</Label>
+            <Label Foreground="White" FontSize="30" Content="{Binding Status}"/>
         </StackPanel>
     </Grid>
 </Window>

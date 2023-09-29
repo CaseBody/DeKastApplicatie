@@ -22,6 +22,7 @@ namespace DeKast
     {
         public MainWindow()
         {
+            this.DataContext = new MainWindowViewModel();
             InitializeComponent();
         }
     }
